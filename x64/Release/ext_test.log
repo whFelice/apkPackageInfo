@@ -1,0 +1,775 @@
+﻿  ext_test.cpp
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl std::_LStrcoll<char>(char const *,char const *,char const *,char const *,struct _Collvec const *)" (??$_LStrcoll@D@std@@YAHPEBD000PEBU_Collvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl std::_LStrcoll<wchar_t>(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,struct _Collvec const *)" (??$_LStrcoll@_W@std@@YAHPEB_W000PEBU_Collvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "unsigned __int64 __cdecl std::_LStrxfrm<char>(char *,char *,char const *,char const *,struct _Collvec const *)" (??$_LStrxfrm@D@std@@YA_KPEAD0PEBD1PEBU_Collvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "unsigned __int64 __cdecl std::_LStrxfrm<wchar_t>(wchar_t *,wchar_t *,wchar_t const *,wchar_t const *,struct _Collvec const *)" (??$_LStrxfrm@_W@std@@YA_KPEA_W0PEB_W1PEBU_Collvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "char __cdecl std::_Maklocbyte<unsigned short>(unsigned short,struct _Cvtvec const &)" (??$_Maklocbyte@G@std@@YADGAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "char __cdecl std::_Maklocbyte<wchar_t>(wchar_t,struct _Cvtvec const &)" (??$_Maklocbyte@_W@std@@YAD_WAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "unsigned short __cdecl std::_Maklocchr<unsigned short>(char,unsigned short *,struct _Cvtvec const &)" (??$_Maklocchr@G@std@@YAGDPEAGAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "wchar_t __cdecl std::_Maklocchr<wchar_t>(char,wchar_t *,struct _Cvtvec const &)" (??$_Maklocchr@_W@std@@YA_WDPEA_WAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "unsigned short * __cdecl std::_Maklocstr<unsigned short>(char const *,unsigned short *,struct _Cvtvec const &)" (??$_Maklocstr@G@std@@YAPEAGPEBDPEAGAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "wchar_t * __cdecl std::_Maklocstr<wchar_t>(char const *,wchar_t *,struct _Cvtvec const &)" (??$_Maklocstr@_W@std@@YAPEA_WPEBDPEA_WAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator==(std::nullptr_t,class std::exception_ptr const &)" (??8std@@YA_N$$TAEBVexception_ptr@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::error_code const &,class std::error_code const &)" (??8std@@YA_NAEBVerror_code@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::error_code const &,class std::error_condition const &)" (??8std@@YA_NAEBVerror_code@0@AEBVerror_condition@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::error_condition const &,class std::error_condition const &)" (??8std@@YA_NAEBVerror_condition@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::error_condition const &,class std::error_code const &)" (??8std@@YA_NAEBVerror_condition@0@AEBVerror_code@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::exception_ptr const &,std::nullptr_t)" (??8std@@YA_NAEBVexception_ptr@0@$$T@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::exception_ptr const &,class std::exception_ptr const &)" (??8std@@YA_NAEBVexception_ptr@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator!=(std::nullptr_t,class std::exception_ptr const &)" (??9std@@YA_N$$TAEBVexception_ptr@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::error_code const &,class std::error_code const &)" (??9std@@YA_NAEBVerror_code@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::error_code const &,class std::error_condition const &)" (??9std@@YA_NAEBVerror_code@0@AEBVerror_condition@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::error_condition const &,class std::error_condition const &)" (??9std@@YA_NAEBVerror_condition@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::error_condition const &,class std::error_code const &)" (??9std@@YA_NAEBVerror_condition@0@AEBVerror_code@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::exception_ptr const &,std::nullptr_t)" (??9std@@YA_NAEBVexception_ptr@0@$$T@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::exception_ptr const &,class std::exception_ptr const &)" (??9std@@YA_NAEBVexception_ptr@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator<(class std::error_code const &,class std::error_code const &)" (??Mstd@@YA_NAEBVerror_code@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl std::operator<(class std::error_condition const &,class std::error_condition const &)" (??Mstd@@YA_NAEBVerror_condition@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::literals::string_literals::operator "" s(char const *,unsigned __int64)" (??__Ks@string_literals@literals@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@PEBD_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class basic_string<char16_t,struct std::char_traits<char16_t>,class std::allocator<char16_t> >::basic_string<char16_t,struct std::char_traits<char16_t>,class std::allocator<char16_t> > __cdecl std::literals::string_literals::operator "" s(char16_t const *,unsigned __int64)" (??__Ks@string_literals@literals@std@@YA?AV?$basic_string@_SU?$char_traits@_S@std@@V?$allocator@_S@2@@3@PEB_S_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class basic_string<char32_t,struct std::char_traits<char32_t>,class std::allocator<char32_t> >::basic_string<char32_t,struct std::char_traits<char32_t>,class std::allocator<char32_t> > __cdecl std::literals::string_literals::operator "" s(char32_t const *,unsigned __int64)" (??__Ks@string_literals@literals@std@@YA?AV?$basic_string@_UU?$char_traits@_U@std@@V?$allocator@_U@2@@3@PEB_U_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::literals::string_literals::operator "" s(wchar_t const *,unsigned __int64)" (??__Ks@string_literals@literals@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@3@PEB_W_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "void * __cdecl std::_Allocate(unsigned __int64,unsigned __int64,bool)" (?_Allocate@std@@YAPEAX_K0_N@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "void __cdecl std::_Deallocate(void *,unsigned __int64,unsigned __int64)" (?_Deallocate@std@@YAXPEAX_K1@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl _Fma(float,float,float)" (?_Fma@@YAMMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "double __cdecl _Fma(double,double,double)" (?_Fma@@YANNNN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl _Fma(long double,long double,long double)" (?_Fma@@YAOOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "unsigned long __cdecl std::_Get_atomic_count(unsigned long const &)" (?_Get_atomic_count@std@@YAKAEBK@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "unsigned __int64 __cdecl std::_Hash_seq(unsigned char const *,unsigned __int64)" (?_Hash_seq@std@@YA_KPEBE_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "wchar_t * __cdecl std::_Maklocwcs(wchar_t const *)" (?_Maklocwcs@std@@YAPEA_WPEB_W@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "public: void __cdecl std::_Container_base12::_Orphan_all(void)" (?_Orphan_all@_Container_base12@std@@QEAAXXZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl _Remquo(float,float,int *)" (?_Remquo@@YAMMMPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "double __cdecl _Remquo(double,double,int *)" (?_Remquo@@YANNNPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl _Remquo(long double,long double,int *)" (?_Remquo@@YAOOOPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "double __cdecl std::_Stodx_v2(char const *,char * *,int,int *)" (?_Stodx_v2@std@@YANPEBDPEAPEADHPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl std::_Stofx_v2(char const *,char * *,int,int *)" (?_Stofx_v2@std@@YAMPEBDPEAPEADHPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "public: void __cdecl std::_Container_base12::_Swap_all(struct std::_Container_base12 &)" (?_Swap_all@_Container_base12@std@@QEAAXAEAU12@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl _fpcomp(float,float)" (?_fpcomp@@YAHMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl _fpcomp(double,double)" (?_fpcomp@@YAHNN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl _fpcomp(long double,long double)" (?_fpcomp@@YAHOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl _open(char const * const,int,int)" (?_open@@YAHQEBDHH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl _sopen(char const * const,int,int,int)" (?_sopen@@YAHQEBDHHH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl _swprintf_l(wchar_t * const,wchar_t const * const,struct __crt_locale_pointers * const,...)" (?_swprintf_l@@YAHQEA_WQEB_WQEAU__crt_locale_pointers@@ZZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl _vswprintf_l(wchar_t * const,wchar_t const * const,struct __crt_locale_pointers * const,char *)" (?_vswprintf_l@@YAHQEA_WQEB_WQEAU__crt_locale_pointers@@PEAD@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl _wopen(wchar_t const *,int,int)" (?_wopen@@YAHPEB_WHH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl _wsopen(wchar_t const *,int,int,int)" (?_wsopen@@YAHPEB_WHHH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl abs(float)" (?abs@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "double __cdecl abs(double)" (?abs@@YANN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl abs(long double)" (?abs@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl acos(float)" (?acos@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl acos(long double)" (?acos@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl acosh(float)" (?acosh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl acosh(long double)" (?acosh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl asin(float)" (?asin@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl asin(long double)" (?asin@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl asinh(float)" (?asinh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl asinh(long double)" (?asinh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl atan2(float,float)" (?atan2@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl atan2(long double,long double)" (?atan2@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl atan(float)" (?atan@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl atan(long double)" (?atan@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl atanh(float)" (?atanh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl atanh(long double)" (?atanh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::boolalpha(class std::ios_base &)" (?boolalpha@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl cbrt(float)" (?cbrt@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl cbrt(long double)" (?cbrt@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl ceil(float)" (?ceil@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl ceil(long double)" (?ceil@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl copysign(float,float)" (?copysign@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl copysign(long double,long double)" (?copysign@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl cos(float)" (?cos@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl cos(long double)" (?cos@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl cosh(float)" (?cosh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl cosh(long double)" (?cosh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::exception_ptr __cdecl std::current_exception(void)" (?current_exception@std@@YA?AVexception_ptr@1@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::dec(class std::ios_base &)" (?dec@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "public: virtual class std::error_condition __cdecl std::error_category::default_error_condition(int)const " (?default_error_condition@error_category@std@@UEBA?AVerror_condition@2@H@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "public: class std::error_condition __cdecl std::error_code::default_error_condition(void)const " (?default_error_condition@error_code@std@@QEBA?AVerror_condition@2@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::defaultfloat(class std::ios_base &)" (?defaultfloat@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "public: virtual bool __cdecl std::error_category::equivalent(class std::error_code const &,int)const " (?equivalent@error_category@std@@UEBA_NAEBVerror_code@2@H@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "public: virtual bool __cdecl std::error_category::equivalent(int,class std::error_condition const &)const " (?equivalent@error_category@std@@UEBA_NHAEBVerror_condition@2@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl erf(float)" (?erf@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl erf(long double)" (?erf@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl erfc(float)" (?erfc@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl erfc(long double)" (?erfc@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl exp2(float)" (?exp2@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl exp2(long double)" (?exp2@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl exp(float)" (?exp@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl exp(long double)" (?exp@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl expm1(float)" (?expm1@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl expm1(long double)" (?expm1@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl fabs(float)" (?fabs@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl fabs(long double)" (?fabs@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl fdim(float,float)" (?fdim@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl fdim(long double,long double)" (?fdim@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::fixed(class std::ios_base &)" (?fixed@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl floor(float)" (?floor@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl floor(long double)" (?floor@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl fma(float,float,float)" (?fma@@YAMMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl fma(long double,long double,long double)" (?fma@@YAOOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl fmax(float,float)" (?fmax@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl fmax(long double,long double)" (?fmax@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl fmin(float,float)" (?fmin@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl fmin(long double,long double)" (?fmin@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl fmod(float,float)" (?fmod@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl fmod(long double,long double)" (?fmod@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl fpclassify(float)" (?fpclassify@@YAHM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl fpclassify(double)" (?fpclassify@@YAHN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl fpclassify(long double)" (?fpclassify@@YAHO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl frexp(float,int *)" (?frexp@@YAMMPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl frexp(long double,int *)" (?frexp@@YAOOPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::error_category const & __cdecl std::generic_category(void)" (?generic_category@std@@YAAEBVerror_category@1@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "void (__cdecl*__cdecl std::get_terminate(void))(void)" (?get_terminate@std@@YAP6AXXZXZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "void (__cdecl*__cdecl std::get_unexpected(void))(void)" (?get_unexpected@std@@YAP6AXXZXZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "unsigned __int64 __cdecl stdext::hash_value(char const *)" (?hash_value@stdext@@YA_KPEBD@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "unsigned __int64 __cdecl stdext::hash_value(wchar_t const *)" (?hash_value@stdext@@YA_KPEB_W@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::hex(class std::ios_base &)" (?hex@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::hexfloat(class std::ios_base &)" (?hexfloat@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl hypot(float,float)" (?hypot@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl hypot(long double,long double)" (?hypot@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl ilogb(float)" (?ilogb@@YAHM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl ilogb(long double)" (?ilogb@@YAHO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::internal(class std::ios_base &)" (?internal@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::error_category const & __cdecl std::iostream_category(void)" (?iostream_category@std@@YAAEBVerror_category@1@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl ldexp(float,int)" (?ldexp@@YAMMH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl ldexp(long double,int)" (?ldexp@@YAOOH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::left(class std::ios_base &)" (?left@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl lgamma(float)" (?lgamma@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl lgamma(long double)" (?lgamma@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "__int64 __cdecl llrint(float)" (?llrint@@YA_JM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "__int64 __cdecl llrint(long double)" (?llrint@@YA_JO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "__int64 __cdecl llround(float)" (?llround@@YA_JM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "__int64 __cdecl llround(long double)" (?llround@@YA_JO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl log10(float)" (?log10@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl log10(long double)" (?log10@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl log1p(float)" (?log1p@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl log1p(long double)" (?log1p@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl log2(float)" (?log2@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl log2(long double)" (?log2@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl log(float)" (?log@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl log(long double)" (?log@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl logb(float)" (?logb@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl logb(long double)" (?logb@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long __cdecl lrint(float)" (?lrint@@YAJM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long __cdecl lrint(long double)" (?lrint@@YAJO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long __cdecl lround(float)" (?lround@@YAJM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long __cdecl lround(long double)" (?lround@@YAJO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::error_code __cdecl std::make_error_code(enum std::errc)" (?make_error_code@std@@YA?AVerror_code@1@W4errc@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::error_code __cdecl std::make_error_code(enum std::io_errc)" (?make_error_code@std@@YA?AVerror_code@1@W4io_errc@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::error_condition __cdecl std::make_error_condition(enum std::errc)" (?make_error_condition@std@@YA?AVerror_condition@1@W4errc@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::error_condition __cdecl std::make_error_condition(enum std::io_errc)" (?make_error_condition@std@@YA?AVerror_condition@1@W4io_errc@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl modf(float,float *)" (?modf@@YAMMPEAM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl modf(long double,long double *)" (?modf@@YAOOPEAO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl nearbyint(float)" (?nearbyint@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl nearbyint(long double)" (?nearbyint@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl nextafter(float,float)" (?nextafter@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl nextafter(long double,long double)" (?nextafter@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl nexttoward(float,long double)" (?nexttoward@@YAMMO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl nexttoward(long double,long double)" (?nexttoward@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noboolalpha(class std::ios_base &)" (?noboolalpha@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noshowbase(class std::ios_base &)" (?noshowbase@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noshowpoint(class std::ios_base &)" (?noshowpoint@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noshowpos(class std::ios_base &)" (?noshowpos@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noskipws(class std::ios_base &)" (?noskipws@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::nounitbuf(class std::ios_base &)" (?nounitbuf@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::nouppercase(class std::ios_base &)" (?nouppercase@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::oct(class std::ios_base &)" (?oct@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl pow(float,int)" (?pow@@YAMMH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl pow(float,float)" (?pow@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "double __cdecl pow(double,int)" (?pow@@YANNH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl pow(long double,int)" (?pow@@YAOOH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl pow(long double,long double)" (?pow@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl remainder(float,float)" (?remainder@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl remainder(long double,long double)" (?remainder@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl remquo(float,float,int *)" (?remquo@@YAMMMPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl remquo(long double,long double,int *)" (?remquo@@YAOOOPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "void __cdecl std::rethrow_exception(class std::exception_ptr)" (?rethrow_exception@std@@YAXVexception_ptr@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::right(class std::ios_base &)" (?right@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl rint(float)" (?rint@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl rint(long double)" (?rint@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl round(float)" (?round@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl round(long double)" (?round@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl scalbln(float,long)" (?scalbln@@YAMMJ@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl scalbln(long double,long)" (?scalbln@@YAOOJ@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl scalbn(float,int)" (?scalbn@@YAMMH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl scalbn(long double,int)" (?scalbn@@YAOOH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::scientific(class std::ios_base &)" (?scientific@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::showbase(class std::ios_base &)" (?showbase@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::showpoint(class std::ios_base &)" (?showpoint@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::showpos(class std::ios_base &)" (?showpos@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl signbit(float)" (?signbit@@YA_NM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl signbit(double)" (?signbit@@YA_NN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "bool __cdecl signbit(long double)" (?signbit@@YA_NO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl sin(float)" (?sin@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl sin(long double)" (?sin@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl sinh(float)" (?sinh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl sinh(long double)" (?sinh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::skipws(class std::ios_base &)" (?skipws@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl sqrt(float)" (?sqrt@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl sqrt(long double)" (?sqrt@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "double __cdecl std::stod(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *)" (?stod@std@@YANAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "double __cdecl std::stod(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *)" (?stod@std@@YANAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl std::stof(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *)" (?stof@std@@YAMAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl std::stof(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *)" (?stof@std@@YAMAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl std::stoi(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoi@std@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl std::stoi(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stoi@std@@YAHAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long __cdecl std::stol(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stol@std@@YAJAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long __cdecl std::stol(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stol@std@@YAJAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl std::stold(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *)" (?stold@std@@YAOAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl std::stold(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *)" (?stold@std@@YAOAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "__int64 __cdecl std::stoll(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoll@std@@YA_JAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "__int64 __cdecl std::stoll(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stoll@std@@YA_JAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "unsigned long __cdecl std::stoul(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoul@std@@YAKAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "unsigned long __cdecl std::stoul(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stoul@std@@YAKAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "unsigned __int64 __cdecl std::stoull(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoull@std@@YA_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "unsigned __int64 __cdecl std::stoull(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stoull@std@@YA_KAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "void __cdecl std::swap(class std::exception_ptr &,class std::exception_ptr &)" (?swap@std@@YAXAEAVexception_ptr@1@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl swprintf(wchar_t * const,wchar_t const * const,...)" (?swprintf@@YAHQEA_WQEB_WZZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::error_category const & __cdecl std::system_category(void)" (?system_category@std@@YAAEBVerror_category@1@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl tan(float)" (?tan@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl tan(long double)" (?tan@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl tanh(float)" (?tanh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl tanh(long double)" (?tanh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl tgamma(float)" (?tgamma@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl tgamma(long double)" (?tgamma@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(int)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(unsigned int)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@I@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(long)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@J@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(unsigned long)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(float)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@M@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(double)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@N@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(long double)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@O@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(__int64)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_J@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(unsigned __int64)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(int)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@H@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(unsigned int)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@I@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(long)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@J@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(unsigned long)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(float)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@M@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(double)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@N@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(long double)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@O@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(__int64)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@_J@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(unsigned __int64)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "float __cdecl trunc(float)" (?trunc@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "long double __cdecl trunc(long double)" (?trunc@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::unitbuf(class std::ios_base &)" (?unitbuf@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "class std::ios_base & __cdecl std::uppercase(class std::ios_base &)" (?uppercase@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "int __cdecl vswprintf(wchar_t * const,wchar_t const * const,char *)" (?vswprintf@@YAHQEA_WQEB_WPEAD@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(class.obj) : warning LNK4006: "wchar_t * __cdecl wmemchr(wchar_t *,wchar_t,unsigned __int64)" (?wmemchr@@YAPEA_WPEA_W_W_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl std::_LStrcoll<char>(char const *,char const *,char const *,char const *,struct _Collvec const *)" (??$_LStrcoll@D@std@@YAHPEBD000PEBU_Collvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl std::_LStrcoll<wchar_t>(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,struct _Collvec const *)" (??$_LStrcoll@_W@std@@YAHPEB_W000PEBU_Collvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "unsigned __int64 __cdecl std::_LStrxfrm<char>(char *,char *,char const *,char const *,struct _Collvec const *)" (??$_LStrxfrm@D@std@@YA_KPEAD0PEBD1PEBU_Collvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "unsigned __int64 __cdecl std::_LStrxfrm<wchar_t>(wchar_t *,wchar_t *,wchar_t const *,wchar_t const *,struct _Collvec const *)" (??$_LStrxfrm@_W@std@@YA_KPEA_W0PEB_W1PEBU_Collvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "char __cdecl std::_Maklocbyte<unsigned short>(unsigned short,struct _Cvtvec const &)" (??$_Maklocbyte@G@std@@YADGAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "char __cdecl std::_Maklocbyte<wchar_t>(wchar_t,struct _Cvtvec const &)" (??$_Maklocbyte@_W@std@@YAD_WAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "unsigned short __cdecl std::_Maklocchr<unsigned short>(char,unsigned short *,struct _Cvtvec const &)" (??$_Maklocchr@G@std@@YAGDPEAGAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "wchar_t __cdecl std::_Maklocchr<wchar_t>(char,wchar_t *,struct _Cvtvec const &)" (??$_Maklocchr@_W@std@@YA_WDPEA_WAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "unsigned short * __cdecl std::_Maklocstr<unsigned short>(char const *,unsigned short *,struct _Cvtvec const &)" (??$_Maklocstr@G@std@@YAPEAGPEBDPEAGAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "wchar_t * __cdecl std::_Maklocstr<wchar_t>(char const *,wchar_t *,struct _Cvtvec const &)" (??$_Maklocstr@_W@std@@YAPEA_WPEBDPEA_WAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator==(std::nullptr_t,class std::exception_ptr const &)" (??8std@@YA_N$$TAEBVexception_ptr@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::error_code const &,class std::error_code const &)" (??8std@@YA_NAEBVerror_code@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::error_code const &,class std::error_condition const &)" (??8std@@YA_NAEBVerror_code@0@AEBVerror_condition@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::error_condition const &,class std::error_condition const &)" (??8std@@YA_NAEBVerror_condition@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::error_condition const &,class std::error_code const &)" (??8std@@YA_NAEBVerror_condition@0@AEBVerror_code@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::exception_ptr const &,std::nullptr_t)" (??8std@@YA_NAEBVexception_ptr@0@$$T@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::exception_ptr const &,class std::exception_ptr const &)" (??8std@@YA_NAEBVexception_ptr@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator!=(std::nullptr_t,class std::exception_ptr const &)" (??9std@@YA_N$$TAEBVexception_ptr@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::error_code const &,class std::error_code const &)" (??9std@@YA_NAEBVerror_code@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::error_code const &,class std::error_condition const &)" (??9std@@YA_NAEBVerror_code@0@AEBVerror_condition@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::error_condition const &,class std::error_condition const &)" (??9std@@YA_NAEBVerror_condition@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::error_condition const &,class std::error_code const &)" (??9std@@YA_NAEBVerror_condition@0@AEBVerror_code@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::exception_ptr const &,std::nullptr_t)" (??9std@@YA_NAEBVexception_ptr@0@$$T@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::exception_ptr const &,class std::exception_ptr const &)" (??9std@@YA_NAEBVexception_ptr@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator<(class std::error_code const &,class std::error_code const &)" (??Mstd@@YA_NAEBVerror_code@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl std::operator<(class std::error_condition const &,class std::error_condition const &)" (??Mstd@@YA_NAEBVerror_condition@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::literals::string_literals::operator "" s(char const *,unsigned __int64)" (??__Ks@string_literals@literals@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@PEBD_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class basic_string<char16_t,struct std::char_traits<char16_t>,class std::allocator<char16_t> >::basic_string<char16_t,struct std::char_traits<char16_t>,class std::allocator<char16_t> > __cdecl std::literals::string_literals::operator "" s(char16_t const *,unsigned __int64)" (??__Ks@string_literals@literals@std@@YA?AV?$basic_string@_SU?$char_traits@_S@std@@V?$allocator@_S@2@@3@PEB_S_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class basic_string<char32_t,struct std::char_traits<char32_t>,class std::allocator<char32_t> >::basic_string<char32_t,struct std::char_traits<char32_t>,class std::allocator<char32_t> > __cdecl std::literals::string_literals::operator "" s(char32_t const *,unsigned __int64)" (??__Ks@string_literals@literals@std@@YA?AV?$basic_string@_UU?$char_traits@_U@std@@V?$allocator@_U@2@@3@PEB_U_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::literals::string_literals::operator "" s(wchar_t const *,unsigned __int64)" (??__Ks@string_literals@literals@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@3@PEB_W_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "void * __cdecl std::_Allocate(unsigned __int64,unsigned __int64,bool)" (?_Allocate@std@@YAPEAX_K0_N@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "void __cdecl std::_Deallocate(void *,unsigned __int64,unsigned __int64)" (?_Deallocate@std@@YAXPEAX_K1@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl _Fma(float,float,float)" (?_Fma@@YAMMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "double __cdecl _Fma(double,double,double)" (?_Fma@@YANNNN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl _Fma(long double,long double,long double)" (?_Fma@@YAOOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "unsigned long __cdecl std::_Get_atomic_count(unsigned long const &)" (?_Get_atomic_count@std@@YAKAEBK@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "unsigned __int64 __cdecl std::_Hash_seq(unsigned char const *,unsigned __int64)" (?_Hash_seq@std@@YA_KPEBE_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "wchar_t * __cdecl std::_Maklocwcs(wchar_t const *)" (?_Maklocwcs@std@@YAPEA_WPEB_W@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "public: void __cdecl std::_Container_base12::_Orphan_all(void)" (?_Orphan_all@_Container_base12@std@@QEAAXXZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl _Remquo(float,float,int *)" (?_Remquo@@YAMMMPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "double __cdecl _Remquo(double,double,int *)" (?_Remquo@@YANNNPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl _Remquo(long double,long double,int *)" (?_Remquo@@YAOOOPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "double __cdecl std::_Stodx_v2(char const *,char * *,int,int *)" (?_Stodx_v2@std@@YANPEBDPEAPEADHPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl std::_Stofx_v2(char const *,char * *,int,int *)" (?_Stofx_v2@std@@YAMPEBDPEAPEADHPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "public: void __cdecl std::_Container_base12::_Swap_all(struct std::_Container_base12 &)" (?_Swap_all@_Container_base12@std@@QEAAXAEAU12@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl _fpcomp(float,float)" (?_fpcomp@@YAHMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl _fpcomp(double,double)" (?_fpcomp@@YAHNN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl _fpcomp(long double,long double)" (?_fpcomp@@YAHOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl _open(char const * const,int,int)" (?_open@@YAHQEBDHH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl _sopen(char const * const,int,int,int)" (?_sopen@@YAHQEBDHHH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl _swprintf_l(wchar_t * const,wchar_t const * const,struct __crt_locale_pointers * const,...)" (?_swprintf_l@@YAHQEA_WQEB_WQEAU__crt_locale_pointers@@ZZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl _vswprintf_l(wchar_t * const,wchar_t const * const,struct __crt_locale_pointers * const,char *)" (?_vswprintf_l@@YAHQEA_WQEB_WQEAU__crt_locale_pointers@@PEAD@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl _wopen(wchar_t const *,int,int)" (?_wopen@@YAHPEB_WHH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl _wsopen(wchar_t const *,int,int,int)" (?_wsopen@@YAHPEB_WHHH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl abs(float)" (?abs@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "double __cdecl abs(double)" (?abs@@YANN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl abs(long double)" (?abs@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl acos(float)" (?acos@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl acos(long double)" (?acos@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl acosh(float)" (?acosh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl acosh(long double)" (?acosh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl asin(float)" (?asin@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl asin(long double)" (?asin@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl asinh(float)" (?asinh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl asinh(long double)" (?asinh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl atan2(float,float)" (?atan2@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl atan2(long double,long double)" (?atan2@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl atan(float)" (?atan@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl atan(long double)" (?atan@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl atanh(float)" (?atanh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl atanh(long double)" (?atanh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::boolalpha(class std::ios_base &)" (?boolalpha@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl cbrt(float)" (?cbrt@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl cbrt(long double)" (?cbrt@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl ceil(float)" (?ceil@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl ceil(long double)" (?ceil@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl copysign(float,float)" (?copysign@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl copysign(long double,long double)" (?copysign@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl cos(float)" (?cos@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl cos(long double)" (?cos@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl cosh(float)" (?cosh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl cosh(long double)" (?cosh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::exception_ptr __cdecl std::current_exception(void)" (?current_exception@std@@YA?AVexception_ptr@1@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::dec(class std::ios_base &)" (?dec@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "public: virtual class std::error_condition __cdecl std::error_category::default_error_condition(int)const " (?default_error_condition@error_category@std@@UEBA?AVerror_condition@2@H@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "public: class std::error_condition __cdecl std::error_code::default_error_condition(void)const " (?default_error_condition@error_code@std@@QEBA?AVerror_condition@2@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::defaultfloat(class std::ios_base &)" (?defaultfloat@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "public: virtual bool __cdecl std::error_category::equivalent(class std::error_code const &,int)const " (?equivalent@error_category@std@@UEBA_NAEBVerror_code@2@H@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "public: virtual bool __cdecl std::error_category::equivalent(int,class std::error_condition const &)const " (?equivalent@error_category@std@@UEBA_NHAEBVerror_condition@2@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl erf(float)" (?erf@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl erf(long double)" (?erf@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl erfc(float)" (?erfc@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl erfc(long double)" (?erfc@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl exp2(float)" (?exp2@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl exp2(long double)" (?exp2@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl exp(float)" (?exp@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl exp(long double)" (?exp@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl expm1(float)" (?expm1@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl expm1(long double)" (?expm1@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl fabs(float)" (?fabs@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl fabs(long double)" (?fabs@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl fdim(float,float)" (?fdim@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl fdim(long double,long double)" (?fdim@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::fixed(class std::ios_base &)" (?fixed@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl floor(float)" (?floor@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl floor(long double)" (?floor@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl fma(float,float,float)" (?fma@@YAMMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl fma(long double,long double,long double)" (?fma@@YAOOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl fmax(float,float)" (?fmax@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl fmax(long double,long double)" (?fmax@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl fmin(float,float)" (?fmin@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl fmin(long double,long double)" (?fmin@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl fmod(float,float)" (?fmod@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl fmod(long double,long double)" (?fmod@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl fpclassify(float)" (?fpclassify@@YAHM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl fpclassify(double)" (?fpclassify@@YAHN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl fpclassify(long double)" (?fpclassify@@YAHO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl frexp(float,int *)" (?frexp@@YAMMPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl frexp(long double,int *)" (?frexp@@YAOOPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::error_category const & __cdecl std::generic_category(void)" (?generic_category@std@@YAAEBVerror_category@1@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "void (__cdecl*__cdecl std::get_terminate(void))(void)" (?get_terminate@std@@YAP6AXXZXZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "void (__cdecl*__cdecl std::get_unexpected(void))(void)" (?get_unexpected@std@@YAP6AXXZXZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "unsigned __int64 __cdecl stdext::hash_value(char const *)" (?hash_value@stdext@@YA_KPEBD@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "unsigned __int64 __cdecl stdext::hash_value(wchar_t const *)" (?hash_value@stdext@@YA_KPEB_W@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::hex(class std::ios_base &)" (?hex@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::hexfloat(class std::ios_base &)" (?hexfloat@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl hypot(float,float)" (?hypot@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl hypot(long double,long double)" (?hypot@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl ilogb(float)" (?ilogb@@YAHM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl ilogb(long double)" (?ilogb@@YAHO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::internal(class std::ios_base &)" (?internal@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::error_category const & __cdecl std::iostream_category(void)" (?iostream_category@std@@YAAEBVerror_category@1@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl ldexp(float,int)" (?ldexp@@YAMMH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl ldexp(long double,int)" (?ldexp@@YAOOH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::left(class std::ios_base &)" (?left@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl lgamma(float)" (?lgamma@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl lgamma(long double)" (?lgamma@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "__int64 __cdecl llrint(float)" (?llrint@@YA_JM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "__int64 __cdecl llrint(long double)" (?llrint@@YA_JO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "__int64 __cdecl llround(float)" (?llround@@YA_JM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "__int64 __cdecl llround(long double)" (?llround@@YA_JO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl log10(float)" (?log10@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl log10(long double)" (?log10@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl log1p(float)" (?log1p@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl log1p(long double)" (?log1p@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl log2(float)" (?log2@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl log2(long double)" (?log2@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl log(float)" (?log@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl log(long double)" (?log@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl logb(float)" (?logb@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl logb(long double)" (?logb@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long __cdecl lrint(float)" (?lrint@@YAJM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long __cdecl lrint(long double)" (?lrint@@YAJO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long __cdecl lround(float)" (?lround@@YAJM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long __cdecl lround(long double)" (?lround@@YAJO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::error_code __cdecl std::make_error_code(enum std::errc)" (?make_error_code@std@@YA?AVerror_code@1@W4errc@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::error_code __cdecl std::make_error_code(enum std::io_errc)" (?make_error_code@std@@YA?AVerror_code@1@W4io_errc@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::error_condition __cdecl std::make_error_condition(enum std::errc)" (?make_error_condition@std@@YA?AVerror_condition@1@W4errc@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::error_condition __cdecl std::make_error_condition(enum std::io_errc)" (?make_error_condition@std@@YA?AVerror_condition@1@W4io_errc@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl modf(float,float *)" (?modf@@YAMMPEAM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl modf(long double,long double *)" (?modf@@YAOOPEAO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl nearbyint(float)" (?nearbyint@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl nearbyint(long double)" (?nearbyint@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl nextafter(float,float)" (?nextafter@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl nextafter(long double,long double)" (?nextafter@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl nexttoward(float,long double)" (?nexttoward@@YAMMO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl nexttoward(long double,long double)" (?nexttoward@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noboolalpha(class std::ios_base &)" (?noboolalpha@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noshowbase(class std::ios_base &)" (?noshowbase@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noshowpoint(class std::ios_base &)" (?noshowpoint@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noshowpos(class std::ios_base &)" (?noshowpos@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noskipws(class std::ios_base &)" (?noskipws@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::nounitbuf(class std::ios_base &)" (?nounitbuf@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::nouppercase(class std::ios_base &)" (?nouppercase@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::oct(class std::ios_base &)" (?oct@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl pow(float,int)" (?pow@@YAMMH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl pow(float,float)" (?pow@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "double __cdecl pow(double,int)" (?pow@@YANNH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl pow(long double,int)" (?pow@@YAOOH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl pow(long double,long double)" (?pow@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl remainder(float,float)" (?remainder@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl remainder(long double,long double)" (?remainder@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl remquo(float,float,int *)" (?remquo@@YAMMMPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl remquo(long double,long double,int *)" (?remquo@@YAOOOPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "void __cdecl std::rethrow_exception(class std::exception_ptr)" (?rethrow_exception@std@@YAXVexception_ptr@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::right(class std::ios_base &)" (?right@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl rint(float)" (?rint@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl rint(long double)" (?rint@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl round(float)" (?round@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl round(long double)" (?round@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl scalbln(float,long)" (?scalbln@@YAMMJ@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl scalbln(long double,long)" (?scalbln@@YAOOJ@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl scalbn(float,int)" (?scalbn@@YAMMH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl scalbn(long double,int)" (?scalbn@@YAOOH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::scientific(class std::ios_base &)" (?scientific@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::showbase(class std::ios_base &)" (?showbase@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::showpoint(class std::ios_base &)" (?showpoint@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::showpos(class std::ios_base &)" (?showpos@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl signbit(float)" (?signbit@@YA_NM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl signbit(double)" (?signbit@@YA_NN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "bool __cdecl signbit(long double)" (?signbit@@YA_NO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl sin(float)" (?sin@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl sin(long double)" (?sin@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl sinh(float)" (?sinh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl sinh(long double)" (?sinh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::skipws(class std::ios_base &)" (?skipws@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl sqrt(float)" (?sqrt@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl sqrt(long double)" (?sqrt@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "double __cdecl std::stod(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *)" (?stod@std@@YANAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "double __cdecl std::stod(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *)" (?stod@std@@YANAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl std::stof(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *)" (?stof@std@@YAMAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl std::stof(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *)" (?stof@std@@YAMAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl std::stoi(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoi@std@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl std::stoi(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stoi@std@@YAHAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long __cdecl std::stol(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stol@std@@YAJAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long __cdecl std::stol(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stol@std@@YAJAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl std::stold(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *)" (?stold@std@@YAOAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl std::stold(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *)" (?stold@std@@YAOAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "__int64 __cdecl std::stoll(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoll@std@@YA_JAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "__int64 __cdecl std::stoll(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stoll@std@@YA_JAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "unsigned long __cdecl std::stoul(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoul@std@@YAKAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "unsigned long __cdecl std::stoul(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stoul@std@@YAKAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "unsigned __int64 __cdecl std::stoull(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoull@std@@YA_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "unsigned __int64 __cdecl std::stoull(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stoull@std@@YA_KAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "void __cdecl std::swap(class std::exception_ptr &,class std::exception_ptr &)" (?swap@std@@YAXAEAVexception_ptr@1@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl swprintf(wchar_t * const,wchar_t const * const,...)" (?swprintf@@YAHQEA_WQEB_WZZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::error_category const & __cdecl std::system_category(void)" (?system_category@std@@YAAEBVerror_category@1@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl tan(float)" (?tan@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl tan(long double)" (?tan@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl tanh(float)" (?tanh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl tanh(long double)" (?tanh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl tgamma(float)" (?tgamma@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl tgamma(long double)" (?tgamma@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(int)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(unsigned int)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@I@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(long)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@J@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(unsigned long)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(float)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@M@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(double)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@N@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(long double)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@O@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(__int64)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_J@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(unsigned __int64)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(int)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@H@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(unsigned int)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@I@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(long)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@J@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(unsigned long)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(float)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@M@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(double)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@N@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(long double)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@O@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(__int64)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@_J@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(unsigned __int64)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "float __cdecl trunc(float)" (?trunc@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "long double __cdecl trunc(long double)" (?trunc@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::unitbuf(class std::ios_base &)" (?unitbuf@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "class std::ios_base & __cdecl std::uppercase(class std::ios_base &)" (?uppercase@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "int __cdecl vswprintf(wchar_t * const,wchar_t const * const,char *)" (?vswprintf@@YAHQEA_WQEB_WPEAD@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(extension.obj) : warning LNK4006: "wchar_t * __cdecl wmemchr(wchar_t *,wchar_t,unsigned __int64)" (?wmemchr@@YAPEA_WPEA_W_W_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl std::_LStrcoll<char>(char const *,char const *,char const *,char const *,struct _Collvec const *)" (??$_LStrcoll@D@std@@YAHPEBD000PEBU_Collvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl std::_LStrcoll<wchar_t>(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,struct _Collvec const *)" (??$_LStrcoll@_W@std@@YAHPEB_W000PEBU_Collvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "unsigned __int64 __cdecl std::_LStrxfrm<char>(char *,char *,char const *,char const *,struct _Collvec const *)" (??$_LStrxfrm@D@std@@YA_KPEAD0PEBD1PEBU_Collvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "unsigned __int64 __cdecl std::_LStrxfrm<wchar_t>(wchar_t *,wchar_t *,wchar_t const *,wchar_t const *,struct _Collvec const *)" (??$_LStrxfrm@_W@std@@YA_KPEA_W0PEB_W1PEBU_Collvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "char __cdecl std::_Maklocbyte<unsigned short>(unsigned short,struct _Cvtvec const &)" (??$_Maklocbyte@G@std@@YADGAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "char __cdecl std::_Maklocbyte<wchar_t>(wchar_t,struct _Cvtvec const &)" (??$_Maklocbyte@_W@std@@YAD_WAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "unsigned short __cdecl std::_Maklocchr<unsigned short>(char,unsigned short *,struct _Cvtvec const &)" (??$_Maklocchr@G@std@@YAGDPEAGAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "wchar_t __cdecl std::_Maklocchr<wchar_t>(char,wchar_t *,struct _Cvtvec const &)" (??$_Maklocchr@_W@std@@YA_WDPEA_WAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "unsigned short * __cdecl std::_Maklocstr<unsigned short>(char const *,unsigned short *,struct _Cvtvec const &)" (??$_Maklocstr@G@std@@YAPEAGPEBDPEAGAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "wchar_t * __cdecl std::_Maklocstr<wchar_t>(char const *,wchar_t *,struct _Cvtvec const &)" (??$_Maklocstr@_W@std@@YAPEA_WPEBDPEA_WAEBU_Cvtvec@@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator==(std::nullptr_t,class std::exception_ptr const &)" (??8std@@YA_N$$TAEBVexception_ptr@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::error_code const &,class std::error_code const &)" (??8std@@YA_NAEBVerror_code@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::error_code const &,class std::error_condition const &)" (??8std@@YA_NAEBVerror_code@0@AEBVerror_condition@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::error_condition const &,class std::error_condition const &)" (??8std@@YA_NAEBVerror_condition@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::error_condition const &,class std::error_code const &)" (??8std@@YA_NAEBVerror_condition@0@AEBVerror_code@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::exception_ptr const &,std::nullptr_t)" (??8std@@YA_NAEBVexception_ptr@0@$$T@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator==(class std::exception_ptr const &,class std::exception_ptr const &)" (??8std@@YA_NAEBVexception_ptr@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator!=(std::nullptr_t,class std::exception_ptr const &)" (??9std@@YA_N$$TAEBVexception_ptr@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::error_code const &,class std::error_code const &)" (??9std@@YA_NAEBVerror_code@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::error_code const &,class std::error_condition const &)" (??9std@@YA_NAEBVerror_code@0@AEBVerror_condition@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::error_condition const &,class std::error_condition const &)" (??9std@@YA_NAEBVerror_condition@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::error_condition const &,class std::error_code const &)" (??9std@@YA_NAEBVerror_condition@0@AEBVerror_code@0@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::exception_ptr const &,std::nullptr_t)" (??9std@@YA_NAEBVexception_ptr@0@$$T@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator!=(class std::exception_ptr const &,class std::exception_ptr const &)" (??9std@@YA_NAEBVexception_ptr@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator<(class std::error_code const &,class std::error_code const &)" (??Mstd@@YA_NAEBVerror_code@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl std::operator<(class std::error_condition const &,class std::error_condition const &)" (??Mstd@@YA_NAEBVerror_condition@0@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::literals::string_literals::operator "" s(char const *,unsigned __int64)" (??__Ks@string_literals@literals@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@PEBD_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class basic_string<char16_t,struct std::char_traits<char16_t>,class std::allocator<char16_t> >::basic_string<char16_t,struct std::char_traits<char16_t>,class std::allocator<char16_t> > __cdecl std::literals::string_literals::operator "" s(char16_t const *,unsigned __int64)" (??__Ks@string_literals@literals@std@@YA?AV?$basic_string@_SU?$char_traits@_S@std@@V?$allocator@_S@2@@3@PEB_S_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class basic_string<char32_t,struct std::char_traits<char32_t>,class std::allocator<char32_t> >::basic_string<char32_t,struct std::char_traits<char32_t>,class std::allocator<char32_t> > __cdecl std::literals::string_literals::operator "" s(char32_t const *,unsigned __int64)" (??__Ks@string_literals@literals@std@@YA?AV?$basic_string@_UU?$char_traits@_U@std@@V?$allocator@_U@2@@3@PEB_U_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::literals::string_literals::operator "" s(wchar_t const *,unsigned __int64)" (??__Ks@string_literals@literals@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@3@PEB_W_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "void * __cdecl std::_Allocate(unsigned __int64,unsigned __int64,bool)" (?_Allocate@std@@YAPEAX_K0_N@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "void __cdecl std::_Deallocate(void *,unsigned __int64,unsigned __int64)" (?_Deallocate@std@@YAXPEAX_K1@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl _Fma(float,float,float)" (?_Fma@@YAMMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "double __cdecl _Fma(double,double,double)" (?_Fma@@YANNNN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl _Fma(long double,long double,long double)" (?_Fma@@YAOOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "unsigned long __cdecl std::_Get_atomic_count(unsigned long const &)" (?_Get_atomic_count@std@@YAKAEBK@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "unsigned __int64 __cdecl std::_Hash_seq(unsigned char const *,unsigned __int64)" (?_Hash_seq@std@@YA_KPEBE_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "wchar_t * __cdecl std::_Maklocwcs(wchar_t const *)" (?_Maklocwcs@std@@YAPEA_WPEB_W@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "public: void __cdecl std::_Container_base12::_Orphan_all(void)" (?_Orphan_all@_Container_base12@std@@QEAAXXZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl _Remquo(float,float,int *)" (?_Remquo@@YAMMMPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "double __cdecl _Remquo(double,double,int *)" (?_Remquo@@YANNNPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl _Remquo(long double,long double,int *)" (?_Remquo@@YAOOOPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "double __cdecl std::_Stodx_v2(char const *,char * *,int,int *)" (?_Stodx_v2@std@@YANPEBDPEAPEADHPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl std::_Stofx_v2(char const *,char * *,int,int *)" (?_Stofx_v2@std@@YAMPEBDPEAPEADHPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "public: void __cdecl std::_Container_base12::_Swap_all(struct std::_Container_base12 &)" (?_Swap_all@_Container_base12@std@@QEAAXAEAU12@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl _fpcomp(float,float)" (?_fpcomp@@YAHMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl _fpcomp(double,double)" (?_fpcomp@@YAHNN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl _fpcomp(long double,long double)" (?_fpcomp@@YAHOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl _open(char const * const,int,int)" (?_open@@YAHQEBDHH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl _sopen(char const * const,int,int,int)" (?_sopen@@YAHQEBDHHH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl _swprintf_l(wchar_t * const,wchar_t const * const,struct __crt_locale_pointers * const,...)" (?_swprintf_l@@YAHQEA_WQEB_WQEAU__crt_locale_pointers@@ZZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl _vswprintf_l(wchar_t * const,wchar_t const * const,struct __crt_locale_pointers * const,char *)" (?_vswprintf_l@@YAHQEA_WQEB_WQEAU__crt_locale_pointers@@PEAD@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl _wopen(wchar_t const *,int,int)" (?_wopen@@YAHPEB_WHH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl _wsopen(wchar_t const *,int,int,int)" (?_wsopen@@YAHPEB_WHHH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl abs(float)" (?abs@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "double __cdecl abs(double)" (?abs@@YANN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl abs(long double)" (?abs@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl acos(float)" (?acos@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl acos(long double)" (?acos@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl acosh(float)" (?acosh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl acosh(long double)" (?acosh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl asin(float)" (?asin@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl asin(long double)" (?asin@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl asinh(float)" (?asinh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl asinh(long double)" (?asinh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl atan2(float,float)" (?atan2@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl atan2(long double,long double)" (?atan2@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl atan(float)" (?atan@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl atan(long double)" (?atan@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl atanh(float)" (?atanh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl atanh(long double)" (?atanh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::boolalpha(class std::ios_base &)" (?boolalpha@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl cbrt(float)" (?cbrt@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl cbrt(long double)" (?cbrt@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl ceil(float)" (?ceil@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl ceil(long double)" (?ceil@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl copysign(float,float)" (?copysign@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl copysign(long double,long double)" (?copysign@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl cos(float)" (?cos@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl cos(long double)" (?cos@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl cosh(float)" (?cosh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl cosh(long double)" (?cosh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::exception_ptr __cdecl std::current_exception(void)" (?current_exception@std@@YA?AVexception_ptr@1@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::dec(class std::ios_base &)" (?dec@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "public: virtual class std::error_condition __cdecl std::error_category::default_error_condition(int)const " (?default_error_condition@error_category@std@@UEBA?AVerror_condition@2@H@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "public: class std::error_condition __cdecl std::error_code::default_error_condition(void)const " (?default_error_condition@error_code@std@@QEBA?AVerror_condition@2@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::defaultfloat(class std::ios_base &)" (?defaultfloat@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "public: virtual bool __cdecl std::error_category::equivalent(class std::error_code const &,int)const " (?equivalent@error_category@std@@UEBA_NAEBVerror_code@2@H@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "public: virtual bool __cdecl std::error_category::equivalent(int,class std::error_condition const &)const " (?equivalent@error_category@std@@UEBA_NHAEBVerror_condition@2@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl erf(float)" (?erf@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl erf(long double)" (?erf@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl erfc(float)" (?erfc@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl erfc(long double)" (?erfc@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl exp2(float)" (?exp2@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl exp2(long double)" (?exp2@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl exp(float)" (?exp@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl exp(long double)" (?exp@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl expm1(float)" (?expm1@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl expm1(long double)" (?expm1@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl fabs(float)" (?fabs@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl fabs(long double)" (?fabs@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl fdim(float,float)" (?fdim@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl fdim(long double,long double)" (?fdim@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::fixed(class std::ios_base &)" (?fixed@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl floor(float)" (?floor@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl floor(long double)" (?floor@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl fma(float,float,float)" (?fma@@YAMMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl fma(long double,long double,long double)" (?fma@@YAOOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl fmax(float,float)" (?fmax@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl fmax(long double,long double)" (?fmax@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl fmin(float,float)" (?fmin@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl fmin(long double,long double)" (?fmin@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl fmod(float,float)" (?fmod@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl fmod(long double,long double)" (?fmod@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl fpclassify(float)" (?fpclassify@@YAHM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl fpclassify(double)" (?fpclassify@@YAHN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl fpclassify(long double)" (?fpclassify@@YAHO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl frexp(float,int *)" (?frexp@@YAMMPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl frexp(long double,int *)" (?frexp@@YAOOPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::error_category const & __cdecl std::generic_category(void)" (?generic_category@std@@YAAEBVerror_category@1@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "void (__cdecl*__cdecl std::get_terminate(void))(void)" (?get_terminate@std@@YAP6AXXZXZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "void (__cdecl*__cdecl std::get_unexpected(void))(void)" (?get_unexpected@std@@YAP6AXXZXZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "unsigned __int64 __cdecl stdext::hash_value(char const *)" (?hash_value@stdext@@YA_KPEBD@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "unsigned __int64 __cdecl stdext::hash_value(wchar_t const *)" (?hash_value@stdext@@YA_KPEB_W@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::hex(class std::ios_base &)" (?hex@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::hexfloat(class std::ios_base &)" (?hexfloat@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl hypot(float,float)" (?hypot@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl hypot(long double,long double)" (?hypot@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl ilogb(float)" (?ilogb@@YAHM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl ilogb(long double)" (?ilogb@@YAHO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::internal(class std::ios_base &)" (?internal@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::error_category const & __cdecl std::iostream_category(void)" (?iostream_category@std@@YAAEBVerror_category@1@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl ldexp(float,int)" (?ldexp@@YAMMH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl ldexp(long double,int)" (?ldexp@@YAOOH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::left(class std::ios_base &)" (?left@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl lgamma(float)" (?lgamma@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl lgamma(long double)" (?lgamma@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "__int64 __cdecl llrint(float)" (?llrint@@YA_JM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "__int64 __cdecl llrint(long double)" (?llrint@@YA_JO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "__int64 __cdecl llround(float)" (?llround@@YA_JM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "__int64 __cdecl llround(long double)" (?llround@@YA_JO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl log10(float)" (?log10@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl log10(long double)" (?log10@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl log1p(float)" (?log1p@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl log1p(long double)" (?log1p@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl log2(float)" (?log2@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl log2(long double)" (?log2@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl log(float)" (?log@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl log(long double)" (?log@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl logb(float)" (?logb@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl logb(long double)" (?logb@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long __cdecl lrint(float)" (?lrint@@YAJM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long __cdecl lrint(long double)" (?lrint@@YAJO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long __cdecl lround(float)" (?lround@@YAJM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long __cdecl lround(long double)" (?lround@@YAJO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::error_code __cdecl std::make_error_code(enum std::errc)" (?make_error_code@std@@YA?AVerror_code@1@W4errc@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::error_code __cdecl std::make_error_code(enum std::io_errc)" (?make_error_code@std@@YA?AVerror_code@1@W4io_errc@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::error_condition __cdecl std::make_error_condition(enum std::errc)" (?make_error_condition@std@@YA?AVerror_condition@1@W4errc@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::error_condition __cdecl std::make_error_condition(enum std::io_errc)" (?make_error_condition@std@@YA?AVerror_condition@1@W4io_errc@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl modf(float,float *)" (?modf@@YAMMPEAM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl modf(long double,long double *)" (?modf@@YAOOPEAO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl nearbyint(float)" (?nearbyint@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl nearbyint(long double)" (?nearbyint@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl nextafter(float,float)" (?nextafter@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl nextafter(long double,long double)" (?nextafter@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl nexttoward(float,long double)" (?nexttoward@@YAMMO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl nexttoward(long double,long double)" (?nexttoward@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noboolalpha(class std::ios_base &)" (?noboolalpha@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noshowbase(class std::ios_base &)" (?noshowbase@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noshowpoint(class std::ios_base &)" (?noshowpoint@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noshowpos(class std::ios_base &)" (?noshowpos@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::noskipws(class std::ios_base &)" (?noskipws@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::nounitbuf(class std::ios_base &)" (?nounitbuf@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::nouppercase(class std::ios_base &)" (?nouppercase@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::oct(class std::ios_base &)" (?oct@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl pow(float,int)" (?pow@@YAMMH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl pow(float,float)" (?pow@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "double __cdecl pow(double,int)" (?pow@@YANNH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl pow(long double,int)" (?pow@@YAOOH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl pow(long double,long double)" (?pow@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl remainder(float,float)" (?remainder@@YAMMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl remainder(long double,long double)" (?remainder@@YAOOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl remquo(float,float,int *)" (?remquo@@YAMMMPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl remquo(long double,long double,int *)" (?remquo@@YAOOOPEAH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "void __cdecl std::rethrow_exception(class std::exception_ptr)" (?rethrow_exception@std@@YAXVexception_ptr@1@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::right(class std::ios_base &)" (?right@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl rint(float)" (?rint@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl rint(long double)" (?rint@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl round(float)" (?round@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl round(long double)" (?round@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl scalbln(float,long)" (?scalbln@@YAMMJ@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl scalbln(long double,long)" (?scalbln@@YAOOJ@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl scalbn(float,int)" (?scalbn@@YAMMH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl scalbn(long double,int)" (?scalbn@@YAOOH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::scientific(class std::ios_base &)" (?scientific@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::showbase(class std::ios_base &)" (?showbase@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::showpoint(class std::ios_base &)" (?showpoint@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::showpos(class std::ios_base &)" (?showpos@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl signbit(float)" (?signbit@@YA_NM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl signbit(double)" (?signbit@@YA_NN@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "bool __cdecl signbit(long double)" (?signbit@@YA_NO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl sin(float)" (?sin@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl sin(long double)" (?sin@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl sinh(float)" (?sinh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl sinh(long double)" (?sinh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::skipws(class std::ios_base &)" (?skipws@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl sqrt(float)" (?sqrt@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl sqrt(long double)" (?sqrt@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "double __cdecl std::stod(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *)" (?stod@std@@YANAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "double __cdecl std::stod(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *)" (?stod@std@@YANAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl std::stof(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *)" (?stof@std@@YAMAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl std::stof(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *)" (?stof@std@@YAMAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl std::stoi(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoi@std@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl std::stoi(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stoi@std@@YAHAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long __cdecl std::stol(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stol@std@@YAJAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long __cdecl std::stol(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stol@std@@YAJAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl std::stold(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *)" (?stold@std@@YAOAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl std::stold(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *)" (?stold@std@@YAOAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "__int64 __cdecl std::stoll(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoll@std@@YA_JAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "__int64 __cdecl std::stoll(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stoll@std@@YA_JAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "unsigned long __cdecl std::stoul(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoul@std@@YAKAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "unsigned long __cdecl std::stoul(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stoul@std@@YAKAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "unsigned __int64 __cdecl std::stoull(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64 *,int)" (?stoull@std@@YA_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "unsigned __int64 __cdecl std::stoull(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &,unsigned __int64 *,int)" (?stoull@std@@YA_KAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@PEA_KH@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "void __cdecl std::swap(class std::exception_ptr &,class std::exception_ptr &)" (?swap@std@@YAXAEAVexception_ptr@1@0@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl swprintf(wchar_t * const,wchar_t const * const,...)" (?swprintf@@YAHQEA_WQEB_WZZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::error_category const & __cdecl std::system_category(void)" (?system_category@std@@YAAEBVerror_category@1@XZ) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl tan(float)" (?tan@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl tan(long double)" (?tan@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl tanh(float)" (?tanh@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl tanh(long double)" (?tanh@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl tgamma(float)" (?tgamma@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl tgamma(long double)" (?tgamma@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(int)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(unsigned int)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@I@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(long)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@J@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(unsigned long)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(float)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@M@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(double)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@N@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(long double)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@O@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(__int64)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_J@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl std::to_string(unsigned __int64)" (?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(int)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@H@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(unsigned int)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@I@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(long)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@J@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(unsigned long)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(float)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@M@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(double)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@N@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(long double)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@O@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(__int64)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@_J@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl std::to_wstring(unsigned __int64)" (?to_wstring@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "float __cdecl trunc(float)" (?trunc@@YAMM@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "long double __cdecl trunc(long double)" (?trunc@@YAOO@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::unitbuf(class std::ios_base &)" (?unitbuf@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "class std::ios_base & __cdecl std::uppercase(class std::ios_base &)" (?uppercase@std@@YAAEAVios_base@1@AEAV21@@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "int __cdecl vswprintf(wchar_t * const,wchar_t const * const,char *)" (?vswprintf@@YAHQEA_WQEB_WPEAD@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+phpx.lib(base.obj) : warning LNK4006: "wchar_t * __cdecl wmemchr(wchar_t *,wchar_t,unsigned __int64)" (?wmemchr@@YAPEA_WPEA_W_W_K@Z) 已在 ext_test.obj 中定义；已忽略第二个定义
+    正在创建库 G:\php-7.1.8-src\ext\ext_test\x64\Release\ext_test.lib 和对象 G:\php-7.1.8-src\ext\ext_test\x64\Release\ext_test.exp
+G:\php-7.1.8-src\ext\ext_test\x64\Release\ext_test.dll : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
+  ext_test.vcxproj -> G:\php-7.1.8-src\ext\ext_test\x64\Release\ext_test.dll
